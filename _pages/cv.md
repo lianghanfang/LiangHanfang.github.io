@@ -11,35 +11,22 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.Eng. in UAV Systems and Machine Learning, Jianghan University, 2022-2025 (expected)
+* B.Eng. in Electronic Information, Hubei University of Technology, 2017-2021
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2022-2025: Master's Research Student
+  * Jianghan University
+  * Research focus: UAV trajectory estimation, point cloud processing, embodied AI
+  * Supervisor: Prof. Shenghai Yuan
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, C/C++, MATLAB
+* Machine Learning: PyTorch, Scikit-learn, Pandas, NumPy
+* Specialized Areas: UAV Detection, Trajectory Optimization, LiDAR Data Processing, Pose Estimation
+* Operating Systems: Linux, Windows
 
 Publications
 ======
@@ -59,6 +46,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Honors and Awards
 ======
-* Currently signed in to 43 different slack teams
+* The 7th UG2 Challenge Competition in CVPR 2024 - Ranked 4th in UAV Tracking and Pose-estimation track
+* The 8th China Graduate Future Flight Vehicle Innovation Competition - National Second Prize
+* Jianghan University Scholarship (2022, 2023, 2024)

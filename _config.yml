@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Liang, Hanfang / Casetrous"
 title_separator          : "-"
 name                     : &name "Liang, Hanfang"
-description              : &description "personal description"
+description              : &description "M.Eng. student working on UAV trajectory estimation and point cloud processing, with strong interest in embodied AI and spatial reasoning."
 url                      : https://LiangHanfang.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lianghanfang/LiangHanfang.github.io"
@@ -26,7 +26,7 @@ author:
   name             : "Liang, Hanfang"
   pronouns         : # example: "she/her"  
   bio              : "M.Eng. student working on UAV trajectory estimation and point cloud processing, with strong interest in embodied AI and spatial reasoning."
-  location         : "Wuhan, China, Earth"
+  location         : "Wuhan, Hubei, China"
   employer         : "Jianghan University"
   uri              : # URL
   email            : "lhf.liang@gmail.com" 
@@ -36,9 +36,9 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=2frqpaIAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -46,13 +46,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "Casetrous"
+  github           : "lianghanfang"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -85,6 +85,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  patents:
+    title: 'Patents'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

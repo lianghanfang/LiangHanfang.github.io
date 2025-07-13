@@ -14,10 +14,10 @@ I am looking for a Ph.D position in UAV/Embodied AI.
 
 Short Bio
 =======
-I’m **Hanfang Liang**, a Master's student in Engineering at Jianghan University.  
+I'm **Hanfang Liang**, a Master's student in Engineering at Jianghan University.  
 My research focuses on **UAV trajectory estimation**, **3D point cloud processing**, and **vision-based localization**. Recently, I have been exploring **embodied AI** and **spatial reasoning**, aiming to bridge low-level perception with high-level semantic understanding in multi-modal environments.
 
-<!-- This website serves as a portfolio of my academic journey — including my publications, projects, talks, and blog posts. You’ll also find a dynamically-generated CV and updates on my latest work. -->
+<!-- This website serves as a portfolio of my academic journey — including my publications, projects, talks, and blog posts. You'll also find a dynamically-generated CV and updates on my latest work. -->
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
@@ -26,12 +26,40 @@ My research focuses on **UAV trajectory estimation**, **3D point cloud processin
 
 Education
 ======
+**Master's degree, UAV Systems and Machine Learning**  
+Jianghan University, Wuhan, China  
+Sept. 2022 - Jun. 2025
+
+**Bachelor's degree, Electronic Information**  
+Hubei University of Technology, Wuhan, China  
+Sept. 2017 - Jun. 2021
 
 Publications and Patents
 ======
+**[C.1]** **Hanfang Liang**, Yizhuo Yang, Jinming Hu, Jianfei Yang, Fen Liu, Shenghai Yuan. **Unsupervised UAV 3D Trajectories Estimation with Sparse Point Clouds**. In *ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, Hyderabad, India, 2025, pp. 1-5, doi: 10.1109/ICASSP49660.2025.10890359.
 
-Honers and Awards
+**[J.1]** **Liang, Hanfang**, Shenghai Yuan, Fen Liu, Yizhuo Yang, Bing Wang, Shi Huang, Jin Chenyang. **Label-Free Long-Horizon 3D UAV Trajectory Prediction via Motion-Aligned RGB and Event Cues**. Manuscript submitted to *IEEE Transactions on Robotics (T-RO)*, currently under review.
+
+**[P.1]** **Hanfang Liang**, et al. (2024). **A research experimental device and method for the effect of mechanical wave energy on plant phenotype**. CN Patent, Patent No. 2024100701185. Registration Date: 1.17.2024, Grant Date: 10.7.2024.
+
+Honors and Awards
 =====
+**The 7th UG2 Challenge Competition in CVPR**  
+CVPR 2024 Workshop and Challenge  
+Jun. 2024  
+- Ranked 4th in UAV Tracking and Pose-estimation track
+- Demonstrated expertise in real-time data clustering and machine learning algorithms for UAV applications
+
+**The 8th China Graduate Future Flight Vehicle Innovation Competition**  
+China Sanjiang Space Group Co., Ltd  
+Dec. 2022  
+- Awarded the National Second Prize in Competition
+- Participated in the design of spherical aircraft
+
+**Scholarship**  
+Awarded by Jianghan University  
+2022, 2023, 2024  
+- Received consecutive scholarships
 
 A data-driven personal website
 ======
