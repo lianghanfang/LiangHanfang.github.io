@@ -22,12 +22,12 @@ repository               : "lianghanfang/LiangHanfang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Liang, Hanfang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "M.Eng. student working on UAV trajectory estimation and point cloud processing, with strong interest in embodied AI and spatial reasoning."
+  location         : "Wuhan, China, Earth"
+  employer         : "Jianghan University"
   uri              : # URL
   email            : "lhf.liang@gmail.com" 
 
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "Casetrous"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
