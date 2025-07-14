@@ -7,100 +7,65 @@ redirect_from:
   - /about.html
 ---
 
-Current
-=======
-I am looking for a Ph.D position in UAV/Embodied AI.
----
+<div class="card" style="margin-bottom:1.5em;">
+<h2 style="margin-top:0;">Current</h2>
+<p>I am looking for a <b>Ph.D position</b> in <span class="skill-tag">UAV</span> / <span class="skill-tag">Embodied AI</span>.</p>
+</div>
 
-Short Bio
-=======
-I'm **Hanfang Liang**, a Master's student in Engineering at Jianghan University.  
-My research focuses on **UAV trajectory estimation**, **3D point cloud processing**, and **vision-based localization**. Recently, I have been exploring **embodied AI** and **spatial reasoning**, aiming to bridge low-level perception with high-level semantic understanding in multi-modal environments.
+<div class="card">
+<h2 style="margin-top:0;">Short Bio</h2>
+<p>I'm <b>Hanfang Liang</b>, a Master's student in Engineering at <b>Jianghan University</b>.<br>
+My research focuses on <span class="skill-tag">UAV trajectory estimation</span>, <span class="skill-tag">3D point cloud processing</span>, and <span class="skill-tag">vision-based localization</span>. Recently, I have been exploring <span class="skill-tag">embodied AI</span> and <span class="skill-tag">spatial reasoning</span>, aiming to bridge low-level perception with high-level semantic understanding in multi-modal environments.</p>
+</div>
 
-<!-- This website serves as a portfolio of my academic journey — including my publications, projects, talks, and blog posts. You'll also find a dynamically-generated CV and updates on my latest work. -->
+<div class="card">
+<h2 style="margin-top:0;">Education</h2>
+<ul>
+  <li><b>Master's degree, UAV Systems and Machine Learning</b><br>Jianghan University, Wuhan, China<br><span style="color:#888;">Sept. 2022 - Jun. 2025</span></li>
+  <li><b>Bachelor's degree, Electronic Information</b><br>Hubei University of Technology, Wuhan, China<br><span style="color:#888;">Sept. 2017 - Jun. 2021</span></li>
+</ul>
+</div>
 
-<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<div class="card">
+<h2 style="margin-top:0;">Publications and Patents</h2>
+<ul class="publication-links">
+  <li><b>[C.1]</b> <b>Hanfang Liang</b>, Yizhuo Yang, Jinming Hu, Jianfei Yang, Fen Liu, Shenghai Yuan. <b>Unsupervised UAV 3D Trajectories Estimation with Sparse Point Clouds</b>. In <i>ICASSP 2025</i>, Hyderabad, India, 2025, pp. 1-5. <a href="https://ieeexplore.ieee.org/document/10890359" target="_blank" class="btn">IEEE Xplore</a> <a href="/publication/2025-01-01-unsupervised-uav-3d-trajectories-estimation" class="btn">详情</a></li>
+  <li><b>[J.1]</b> <b>Liang, Hanfang</b>, Shenghai Yuan, Fen Liu, Yizhuo Yang, Bing Wang, Shi Huang, Jin Chenyang. <b>Label-Free Long-Horizon 3D UAV Trajectory Prediction via Motion-Aligned RGB and Event Cues</b>. Manuscript submitted to <i>IEEE Transactions on Robotics (T-RO)</i>, <a href="https://arxiv.org/abs/2507.03365" target="_blank" class="btn">arXiv</a> <a href="/publication/2024-07-01-label-free-long-horizon-3d-uav-trajectory-prediction" class="btn">详情</a></li>
+  <li><b>[P.1]</b> <b>Hanfang Liang</b>, et al. (2024). <b>A research experimental device and method for the effect of mechanical wave energy on plant phenotype</b>. CN Patent, Patent No. 2024100701185. <a href="/publication/2024-01-17-mechanical-wave-energy-plant-phenotype" class="btn">详情</a></li>
+</ul>
+</div>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
----
+<div class="card">
+<h2 style="margin-top:0;">Honors and Awards</h2>
+<ul>
+  <li><b>The 7th UG2 Challenge Competition in CVPR</b> <br>CVPR 2024 Workshop and Challenge <br><span style="color:#888;">Jun. 2024</span><br>
+    <ul>
+      <li>Ranked 4th in UAV Tracking and Pose-estimation track</li>
+      <li>Demonstrated expertise in real-time data clustering and machine learning algorithms for UAV applications</li>
+      <li><a href="https://cvpr2024ug2challenge.github.io" target="_blank">活动官网</a></li>
+    </ul>
+  </li>
+  <li><b>The 8th China Graduate Future Flight Vehicle Innovation Competition</b><br>China Sanjiang Space Group Co., Ltd<br><span style="color:#888;">Dec. 2022</span><br>
+    <ul>
+      <li>Awarded the National Second Prize in Competition</li>
+      <li>Participated in the design of spherical aircraft</li>
+      <li><a href="https://cpipc.acge.org.cn/cw/detail/3/2c90801884d24ed2018566fed9f457c1" target="_blank">活动官网</a></li>
+    </ul>
+  </li>
+  <li><b>Scholarship</b><br>Awarded by Jianghan University<br>2022, 2023, 2024<br>
+    <ul>
+      <li>Received consecutive scholarships</li>
+    </ul>
+  </li>
+</ul>
+</div>
 
-Education
-======
-**Master's degree, UAV Systems and Machine Learning**  
-Jianghan University, Wuhan, China  
-Sept. 2022 - Jun. 2025
-
-**Bachelor's degree, Electronic Information**  
-Hubei University of Technology, Wuhan, China  
-Sept. 2017 - Jun. 2021
-
-Publications and Patents
-======
-**[C.1]** **Hanfang Liang**, Yizhuo Yang, Jinming Hu, Jianfei Yang, Fen Liu, Shenghai Yuan. **Unsupervised UAV 3D Trajectories Estimation with Sparse Point Clouds**. In *ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, Hyderabad, India, 2025, pp. 1-5, doi: 10.1109/ICASSP49660.2025.10890359.
-
-**[J.1]** **Liang, Hanfang**, Shenghai Yuan, Fen Liu, Yizhuo Yang, Bing Wang, Shi Huang, Jin Chenyang. **Label-Free Long-Horizon 3D UAV Trajectory Prediction via Motion-Aligned RGB and Event Cues**. Manuscript submitted to *IEEE Transactions on Robotics (T-RO)*, currently under review.
-
-**[P.1]** **Hanfang Liang**, et al. (2024). **A research experimental device and method for the effect of mechanical wave energy on plant phenotype**. CN Patent, Patent No. 2024100701185. Registration Date: 1.17.2024, Grant Date: 10.7.2024.
-
-Honors and Awards
-=====
-**The 7th UG2 Challenge Competition in CVPR**  
-CVPR 2024 Workshop and Challenge  
-Jun. 2024  
-- Ranked 4th in UAV Tracking and Pose-estimation track
-- Demonstrated expertise in real-time data clustering and machine learning algorithms for UAV applications
-
-**The 8th China Graduate Future Flight Vehicle Innovation Competition**  
-China Sanjiang Space Group Co., Ltd  
-Dec. 2022  
-- Awarded the National Second Prize in Competition
-- Participated in the design of spherical aircraft
-
-**Scholarship**  
-Awarded by Jianghan University  
-2022, 2023, 2024  
-- Received consecutive scholarships
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<div class="card">
+<h2 style="margin-top:0;">Contact & Links</h2>
+<ul>
+  <li><b>Email:</b> <a href="mailto:lhf.liang@gmail.com">lhf.liang@gmail.com</a></li>
+  <li><b>Google Scholar:</b> <a href="https://scholar.google.com/citations?hl=zh-CN&user=2frqpaIAAAAJ" target="_blank">Google Scholar</a></li>
+  <li><b>GitHub:</b> <a href="https://github.com/lianghanfang" target="_blank">lianghanfang</a></li>
+  <li><b>IEEE Collabratec:</b> <a href="https://ieee-collabratec.ieee.org/app/p/HanfangLiang1120280/about" target="_blank">Hanfang Liang</a></li>
+</ul>
+</div>
