@@ -92,6 +92,8 @@ My research focuses on <span class="skill-tag">UAV trajectory estimation</span>,
 </ul>
 </div>
 
+<script src="/assets/js/oral-carousel.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const track = document.querySelector('.oral-carousel-track');
