@@ -29,10 +29,32 @@ My research focuses on <span class="skill-tag">UAV trajectory estimation</span>,
 <div class="card">
 <h2 style="margin-top:0;">Publications and Patents</h2>
 <ul class="publication-links">
-  <li><b>[C.1]</b> <b>Hanfang Liang</b>, Yizhuo Yang, Jinming Hu, Jianfei Yang, Fen Liu, Shenghai Yuan. <b>Unsupervised UAV 3D Trajectories Estimation with Sparse Point Clouds</b>. In <i>ICASSP 2025</i>, Hyderabad, India, 2025, pp. 1-5. <a href="https://ieeexplore.ieee.org/document/10890359" target="_blank" class="btn">IEEE Xplore</a> <a href="/publication/2025-01-01-unsupervised-uav-3d-trajectories-estimation" class="btn">详情</a></li>
+  <li><b>[C.1]</b> <b>Hanfang Liang</b>, Yizhuo Yang, Jinming Hu, Jianfei Yang, Fen Liu, Shenghai Yuan. <b>Unsupervised UAV 3D Trajectories Estimation with Sparse Point Clouds</b> <span class="skill-tag" style="background:#e67e22;">Oral</span>. In <i>ICASSP 2025</i>, Hyderabad, India, 2025, pp. 1-5. <a href="https://ieeexplore.ieee.org/document/10890359" target="_blank" class="btn">IEEE Xplore</a> <a href="/publication/2025-01-01-unsupervised-uav-3d-trajectories-estimation" class="btn">详情</a></li>
   <li><b>[J.1]</b> <b>Liang, Hanfang</b>, Shenghai Yuan, Fen Liu, Yizhuo Yang, Bing Wang, Shi Huang, Jin Chenyang. <b>Label-Free Long-Horizon 3D UAV Trajectory Prediction via Motion-Aligned RGB and Event Cues</b>. Manuscript submitted to <i>IEEE Transactions on Robotics (T-RO)</i>, <a href="https://arxiv.org/abs/2507.03365" target="_blank" class="btn">arXiv</a> <a href="/publication/2024-07-01-label-free-long-horizon-3d-uav-trajectory-prediction" class="btn">详情</a></li>
   <li><b>[P.1]</b> <b>Hanfang Liang</b>, et al. (2024). <b>A research experimental device and method for the effect of mechanical wave energy on plant phenotype</b>. CN Patent, Patent No. 2024100701185. <a href="/publication/2024-01-17-mechanical-wave-energy-plant-phenotype" class="btn">详情</a></li>
 </ul>
+
+<!-- ICASSP Oral 图片轮播 -->
+<div class="card" style="padding:1em 1em 2em 1em;">
+  <h3 style="margin-top:0;">ICASSP 2025 Oral Presentation <span class="skill-tag" style="background:#e67e22;">Oral</span></h3>
+  <div id="oral-carousel" class="oral-carousel">
+    <div class="oral-carousel-track">
+      <img src="/images/ICASSP_Oral/9f30ef73812678710b6e94062a83ee0.jpg" alt="ICASSP Oral 1">
+      <img src="/images/ICASSP_Oral/dea501fef6ed854f3837dc4b820c227.jpg" alt="ICASSP Oral 2">
+      <img src="/images/ICASSP_Oral/404bb40755b8dd3ff293d94bc1096e6.jpg" alt="ICASSP Oral 3">
+      <img src="/images/ICASSP_Oral/3992141b0a818870cb77575e43f9983.jpg" alt="ICASSP Oral 4">
+      <img src="/images/ICASSP_Oral/8c9e5fb7edb2ad7de0a264af838c317.jpg" alt="ICASSP Oral 5">
+      <img src="/images/ICASSP_Oral/132ac8be9cc824166d33a4e2210e573.jpg" alt="ICASSP Oral 6">
+      <img src="/images/ICASSP_Oral/1890daa4d98e422db860b6a30d64183.jpg" alt="ICASSP Oral 7">
+      <img src="/images/ICASSP_Oral/4e2d69a6af9a1d86e5e057be55cfdfe.jpg" alt="ICASSP Oral 8">
+      <img src="/images/ICASSP_Oral/fec0f238adac1d4a6055c0d97c8ab29.jpg" alt="ICASSP Oral 9">
+      <img src="/images/ICASSP_Oral/2028fdfcc72476fa85b71b43b8da01d.jpg" alt="ICASSP Oral 10">
+      <img src="/images/ICASSP_Oral/768b1d46551889424b5db675f45b3f0.jpg" alt="ICASSP Oral 11">
+    </div>
+    <button class="oral-carousel-btn prev">&#10094;</button>
+    <button class="oral-carousel-btn next">&#10095;</button>
+  </div>
+</div>
 </div>
 
 <div class="card">
@@ -69,3 +91,52 @@ My research focuses on <span class="skill-tag">UAV trajectory estimation</span>,
   <li><b>IEEE Collabratec:</b> <a href="https://ieee-collabratec.ieee.org/app/p/HanfangLiang1120280/about" target="_blank">Hanfang Liang</a></li>
 </ul>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const track = document.querySelector('.oral-carousel-track');
+  const images = Array.from(track.children);
+  const prevBtn = document.querySelector('.oral-carousel-btn.prev');
+  const nextBtn = document.querySelector('.oral-carousel-btn.next');
+  let current = 0;
+  const show = 1; // 每次显示一张
+
+  function updateCarousel() {
+    const width = images[0].clientWidth + 8; // 8px margin-right
+    track.style.transform = `translateX(-${current * width}px)`;
+  }
+
+  prevBtn.onclick = function() {
+    current = (current - 1 + images.length) % images.length;
+    updateCarousel();
+  };
+  nextBtn.onclick = function() {
+    current = (current + 1) % images.length;
+    updateCarousel();
+  };
+
+  // 触摸滑动支持
+  let startX = 0;
+  let isDown = false;
+  track.addEventListener('touchstart', e => {
+    isDown = true;
+    startX = e.touches[0].clientX;
+  });
+  track.addEventListener('touchend', e => {
+    isDown = false;
+  });
+  track.addEventListener('touchmove', e => {
+    if (!isDown) return;
+    let moveX = e.touches[0].clientX - startX;
+    if (Math.abs(moveX) > 50) {
+      if (moveX > 0) prevBtn.click();
+      else nextBtn.click();
+      isDown = false;
+    }
+  });
+
+  // 自适应窗口resize
+  window.addEventListener('resize', updateCarousel);
+  updateCarousel();
+});
+</script>

@@ -96,4 +96,58 @@ blockquote {
   background: #f8f9fa;
   padding: 1em;
   border-radius: 0 4px 4px 0;
+}
+
+.oral-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 1.5em auto 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+  background: #fff;
+}
+.oral-carousel-track {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(.77,0,.18,1);
+  will-change: transform;
+}
+.oral-carousel-track img {
+  width: 100%;
+  max-width: 600px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 8px;
+  box-shadow: 0 1px 6px rgba(44,62,80,0.06);
+  background: #f8f9fa;
+}
+.oral-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(52,152,219,0.85);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  font-size: 1.6em;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.12);
+}
+.oral-carousel-btn:hover {
+  background: #764ba2;
+}
+.oral-carousel-btn.prev { left: 10px; }
+.oral-carousel-btn.next { right: 10px; }
+
+@media (max-width: 700px) {
+  .oral-carousel, .oral-carousel-track img {
+    max-width: 98vw;
+    height: 180px;
+  }
 } 
